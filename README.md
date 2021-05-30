@@ -20,5 +20,7 @@
 ![](https://github.com/jeansgit/NessusReport/blob/main/%E8%BD%AC%E6%8D%A2%E5%89%8D.bmp)
 
 ## 命令
+将nessusvul.7z解压后的nessusvul.db文件放在与NessusCsvReport.py同一目录
+
 python NessusCsvReport.py nessustest.csv result.xlsx
 ![](https://github.com/jeansgit/NessusReport/blob/main/%E8%BD%AC%E4%B8%BA%E4%B8%AD%E6%96%87.bmp)
