@@ -103,7 +103,7 @@ df10.to_excel(writer,sheet_name="High漏洞统计",index=False)
 df2=pd.DataFrame(res)
 listsort = ['Critical', 'High', 'Medium','Low','None']
 df2['Risk'] = df2['Risk'].astype('category').cat.set_categories(listsort)
-df_sortes=df1.sort_values(by=['Risk'], ascending=True)
+df_sortes=df2.sort_values(by=['Risk'], ascending=True)
 df3=pd.DataFrame(df_sortes)
 df3.to_excel(writer,sheet_name='漏洞详情',index=False)
 writer.save()
