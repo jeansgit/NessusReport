@@ -1,6 +1,10 @@
 # NessusReport
 将Nessus按默认字段导出的CSV报表转为中文xlsx（包含sheet:扫描信息、扫描资产、漏洞统计、Critical漏洞统计、High漏洞统计、漏洞详情）
 
+## 20211108更新
+如果运行报错，请使用nessus.py。
+
+
 ## 扫描信息
 ![](https://github.com/jeansgit/NessusReport/blob/main/%E6%89%AB%E6%8F%8F%E4%BF%A1%E6%81%AF.bmp)
 ## 扫描资产
